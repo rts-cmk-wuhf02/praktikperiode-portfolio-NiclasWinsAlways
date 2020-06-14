@@ -209,3 +209,68 @@ section {
 	margin-left: 70px;
     padding-top: 20px;
 }
+
+.Port-section {
+	background-color: white;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.Portfolio-headline {
+	display: flex;
+	justify-content: center;
+	padding: 70px;
+	font-size: 50px;
+}
+
+.text-box {
+    background-color: wheat;
+    width: 50%;
+    height: 260px;
+	display: flex;
+	justify-content: center;
+	margin-left: 110px;
+}
+
+.text-box1 {
+    background-color: wheat;
+    width: 50%;
+    height: 260px;
+	display: flex;
+	justify-content: center;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+
+
+.text-box2 {
+    background-color: wheat;
+    width: 50%;
+    height: 260px;
+	display: flex;
+	justify-content: center;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+
+
+.text-box3 {
+    background-color: wheat;
+    width: 50%;
+    height: 260px;
+	display: flex;
+	justify-content: center;
+	margin-left: 110px;
+	margin-top: 20px;
+}
+
+
+.content-box {
+	padding: 20px;
+}
+
+.box-content {
+	display: flex;
+	justify-content: center;
+}
