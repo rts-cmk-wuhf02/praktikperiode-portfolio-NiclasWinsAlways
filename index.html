@@ -6,29 +6,29 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="./assets/css/index.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 <body>
-    <nav class="nav-bar">
-      <div class="toggle-menu">
-        <div class="line line1"></div>
-        <div class="line line2"></div>
-        <div class="line line3"></div>
-      </div>
-      <ul class="nav-list">
-        <li class="nav-list-item"><a href="#Home-section" class="nav-link">Home</a></li>
-        <li class="nav-list-item"><a href="#About-section" class="nav-link">About</a></li>
-        <li class="nav-list-item">
-          <a href="" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-list-item">
-          <a href="" class="nav-link">Contacts</a>
-        </li>
-      </ul>
+  <header class="header">
+    <p class="header__portfolio">Portfolio</p>
+    <nav class="header__nav">
+        <label for="checkbox" id="checkboxLabel">Show More</label>
+        <input type="checkbox" id="checkbox" />
+        <ul id="uList">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
     </nav>
-  </div>
-
+</header>
 <div class="info-container" id="Home-section">
   <h1 class="name-text">Hello, jeg er <span class="color-change  ">Niclas Jensen.</span></h1>
+  <p class="web-text">Og jeg er en Webudvikler</p>
+ 
+ 
+
 </div>
+
 
 <section class="main-info-container">
   <h1 class="about-text" id="About-section">About</h1>
@@ -47,31 +47,84 @@
   
   <div class="text-box">
     <h1 class="content-box">HTML/CSS</h1>
+    <p class="box-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat ipsum sint, dolore ad sapiente corrupti repudiandae quos atque et deleniti doloribus, nostrum aperiam doloremque iusto dolor delectus dignissimos tempore debitis!</p>
         
   
   </div>
   
   <div class="text-box1">
     <h1 class="content-box">Js/React</h1>
+    <p class="box-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eligendi placeat tempora autem eum, voluptates quod quidem iusto repellendus debitis optio ad similique totam hic enim id? Possimus, eos cupiditate.</p>
+
         
   
   </div>
   <div class="text-box2">
-    <h1 class="content-box">Php</h1>
+    <h1 class="content-box">Gulp/ejs</h1>
+    <p class="box-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio maiores consequatur consequuntur excepturi mollitia dolorem. Ratione, facilis sed? Veniam ea exercitationem ratione tempora, nam officiis nisi inventore voluptatum nobis neque?</p>
+          
         
   
   </div>
   
   <div class="text-box3">
-    <h1 class="content-box">APIS</h1>
-        
-  
+    <h1 class="content-box">Projekter</h1>
+   
+
+    
+    
   </div>
+
+  <div class="gallery-section">
+    <div class="inner-width">
+      <h1>My Gallery</h1>
+      <div class="border"></div>
+      <div class="gallery">
+  
+        <a href="./assets/images/portfolio.jpg" class="big_image">
+          <img src="./assets/images/portfolio.jpg" alt="">
+        </a>
+
+        
+        <a href="./assets/images/portfolio.jpg" class="big_image">
+          <img src="./assets/images/portfolio.jpg" alt="">
+        </a>
+
+        
+        <a href="./assets/images/portfolio.jpg" class="big_image">
+          <img src="./assets/images/portfolio.jpg" alt="">
+        </a>
+
+        
+        <a href="./assets/images/portfolio.jpg" class="big_image">
+          <img src="./assets/images/portfolio.jpg" alt="">
+        </a>
   
   
-  
-  
-  </section>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+
+  <class class="preview">
+    <section class="sectionPrev__card">
+            <div class="card__box">
+                <h1>Niclas</h1>
+                <p class="card__title">Webudvikler</p>
+                <p>Roskilde Tekniske Skole</p>
+                <div style="margin: 24px 0;">
+                  <a href="#"><i class="fa fa-github"></i></a> 
+                  <a href="#"><i class="fa fa-twitter"></i></a>  
+                  <a href="#"><i class="fa fa-linkedin"></i></a>  
+                  <a href="#"><i class="fa fa-facebook"></i></a> 
+                </div>
+                <p><button>Kontakt</button></p>
+            </div>
+    </section>
+</class>
+</section>
 
 
 
