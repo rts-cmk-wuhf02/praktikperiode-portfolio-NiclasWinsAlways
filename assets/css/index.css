@@ -245,7 +245,6 @@ section {
 }
 
 .text-content {
-  color: white;
 	display: flex;
 	justify-content: center;
 	letter-spacing: 1px;
@@ -262,10 +261,12 @@ section {
 }
 
 .Port-section {
-	background-color: white;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+  background-color: white;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  flex-direction: column;
 }
 
 .Portfolio-headline {
