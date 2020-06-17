@@ -245,6 +245,7 @@ section {
 }
 
 .text-content {
+  color: white;
 	display: flex;
 	justify-content: center;
 	letter-spacing: 1px;
@@ -275,7 +276,7 @@ section {
 }
 
 .text-box {
-	background-color: wheat;
+	background-color: black;
     width: 50%;
 	display: flex;
 	justify-content: space-evenly;
@@ -283,17 +284,17 @@ section {
 }
 
 .text-box1 {
-	background-color: wheat;
+	background-color: black;
     width: 50%;
 	display: flex;
 	justify-content: center;
 	margin-left: 110px;
-	margin-top: 60px;
+	margin-top: 70px;
 }
 
 
 .text-box2 {
-	background-color: wheat;
+  background-color: black;
     width: 50%;
 	display: flex;
 	justify-content: center;
@@ -303,7 +304,7 @@ section {
 
 
 .text-box3 {
-	background-color: wheat;
+	background-color: black;
     width: 50%;
 	display: flex;
 	justify-content: center;
@@ -313,6 +314,7 @@ section {
 
 
 .content-box {
+  color: white;
 	padding: 20px;
 }
 
@@ -376,13 +378,14 @@ section {
     background-color: rbga(255,255,255,.5)
   }
 
-  @media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 960px) {
 
     .card__box {
-        width: 250px;
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+  }
       }
-
-}
 	
 
 .gallery-section {
@@ -461,7 +464,7 @@ section {
 	}
   }
   
-  @media screen and (max-width:768px) {
+  @media screen and (max-width:960px) {
 	.gallery-section .image {
 	  flex: 50%;
 	}
@@ -498,9 +501,15 @@ section {
 		margin-top: 50px;
 		padding: 30px;
 		
-	}
+  }
+  
+  .content-box {
+    padding: 20px;
+    color: white;
+}
+
 	.text-box {
-		background-color: wheat;
+		background-color: black;
 		width: 50%;
 		display: flex;
 		justify-content: center;
@@ -508,7 +517,7 @@ section {
 	}
 
 	.text-box1 {
-		background-color: wheat;
+		background-color: black;
 		width: 50%;
 		display: flex;
 		justify-content: center;
@@ -516,7 +525,7 @@ section {
 	}
 
 	.text-box2 {
-		background-color: wheat;
+    background-color: black;
 		width: 50%;
 		display: flex;
 		justify-content: center;
@@ -524,7 +533,7 @@ section {
 	}
 
 	.text-box3 {
-		background-color: wheat;
+    background-color: black;
 		width: 50%;
 		display: flex;
 		justify-content: center;
@@ -613,6 +622,11 @@ section {
     
     #uList {
         width: 100%;
+    }
+
+    .about-container {
+      display: flex;
+      justify-content: center;
     }
 
 }
