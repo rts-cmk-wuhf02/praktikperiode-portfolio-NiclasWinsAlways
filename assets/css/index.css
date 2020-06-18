@@ -210,14 +210,15 @@ ul li a {
     font-size: 70px;
 	display: flex;
 	justify-content: center;
-	margin-top: 350px;
+  margin-top: 350px;
+  padding: 150px;
 	
 }
 
 .main-info__container {
     margin-left: 300px;
     margin-top: 300px;
-	background-color: white;
+	background-color: lavender;
 	display: flex;
 	justify-content: center;
   
@@ -233,7 +234,7 @@ ul li a {
 
 
 section {
-	background: white;
+	background: lavender;
 	width: 100%;
 }
 
@@ -261,7 +262,7 @@ section {
 }
 
 .Port-section {
-  background-color: white;
+  background-color: lavender;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -481,18 +482,39 @@ section {
 
 
 	.irl-photo {
-		margin-left: 500px;
+		margin-left: 750px;
 		height: 200px;
 		width: 20%;
 		border-radius: 50%;
 		margin-top: 30px;
-	}
+  }
+  
+  .about-text {
+    color: black;
+      text-align: center;
+      font-size: 70px;
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    padding: 200px;
+    
+  }
+  .main-info-container {
+    background: lavender;
+  }
 
+  .sectionPrev__card {
+    background-color: lavender;
+  }
+
+  .Port-section {
+    background-color: lavender;
+  }
 	.text-content {
 		display: flex;
 		justify-content: center;
 		flex-direction: column;
-		margin-left: 100px;
+		margin-left: 150px;
 		letter-spacing: 1px;
 	}
 	.box-content {
@@ -510,42 +532,42 @@ section {
 }
 
 	.text-box {
-		background-color: black;
-		width: 50%;
-		display: flex;
-		justify-content: center;
-		margin-left: 300px;
+    background-color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
 	}
 
 	.text-box1 {
-		background-color: black;
-		width: 50%;
-		display: flex;
-		justify-content: center;
-		margin-left: 300px;
+    background-color: black;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
 	}
 
 	.text-box2 {
     background-color: black;
-		width: 50%;
-		display: flex;
-		justify-content: center;
-		margin-left: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
 	}
 
 	.text-box3 {
     background-color: black;
-		width: 50%;
-		display: flex;
-		justify-content: center;
-		margin-left: 300px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
 	}
 
 	.gallery-section {
 		width: 50%;
 		padding: 60px 0;
 		background: #f1f1f1;
-		margin-left: 300px;
+		margin-left: 450px;
 		margin-top: 20px;
 		display: flex;
 	}
