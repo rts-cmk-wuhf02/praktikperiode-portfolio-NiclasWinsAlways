@@ -1,0 +1,24 @@
+{
+    "name": "Portfolio App",
+    "short_name": "PortFolio",
+    "start_url": "/index.html",
+    "background_color": "#f1f1f1",
+    "display": "standalone",
+    "icons" : [
+        {
+            "src": "/assets/images/mario.png",
+            "type": "image/png",
+            "size": "192x192"
+
+        },
+
+        {
+            "src": "/assets/images/marioios.png",
+            "type": "image/png",
+            "size": "512x512" 
+        }
+    ],
+
+    "theme_color": "#f1f1f1",
+    "orientation": "protrait-primary"
+}
