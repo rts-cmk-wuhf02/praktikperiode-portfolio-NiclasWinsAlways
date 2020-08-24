@@ -6,7 +6,7 @@
     "display": "standalone",
     "icons" : [
         {
-            "src": "/assets/images/mario.png",
+            "src": "mar"
             "type": "image/png",
             "size": "192x192"
 
